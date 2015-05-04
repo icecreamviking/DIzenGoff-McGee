@@ -56,7 +56,7 @@ body {
   position:absolute;
   overflow:hidden;
   left:15%;
-  bottom:0px;
+  bottom:390px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
 }
