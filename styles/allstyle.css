@@ -113,8 +113,8 @@ body {
   position:absolute;
   display:block;
   height:470px;
-  width:200%;
-  bottom:100%;
+  width:100%;
+  bottom:200%;
   background-color:yellow;
 }
 
@@ -122,8 +122,8 @@ body {
   position:absolute;
   display:block;
   height:470px;
-  width:300%;
-  bottom:100%;
+  width:100%;
+  bottom:300%;
   background-color:green;
 }
 
@@ -131,8 +131,8 @@ body {
   position:absolute;
   display:block;
   height:470px;
-  width:400%;
-  bottom:100%;
+  width:100%;
+  bottom:400%;
   background-color:blue;
 }
 
