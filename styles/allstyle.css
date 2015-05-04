@@ -66,14 +66,14 @@ body {
   bottom:0px;
   display:block;
   height:470px;
-  width:488px;
+  width:100%;
 }
 
 .bloc_about{
   position:absolute;
   display:block;
   height:470px;
-  width:488px;
+  width:100%;
   bottom:100%;
 }
 
@@ -81,7 +81,7 @@ body {
   position:absolute;
   display:block;
   height:470px;
-  width:488px;
+  width:100%;
   bottom:100%;
 }
 
@@ -89,7 +89,7 @@ body {
   position:absolute;
   display:block;
   height:470px;
-  width:488px;
+  width:100%;
   bottom:100%;
 }
 
@@ -97,7 +97,7 @@ body {
   position:absolute;
   display:block;
   height:470px;
-  width:488px;
+  width:100%;
   bottom:100%;
 }
 
