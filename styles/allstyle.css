@@ -178,3 +178,54 @@ body {
   transition:.5s ease-out
   transition-delay:.2s;
 }
+
+
+.tempo_home{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  background-color:red;
+  position:absolute;
+  bottom:20px;
+  left:25px;
+}
+
+.tempo_about{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  background-color:orange;
+  position:absolute;
+  bottom:20px;
+  left:75px;
+}
+
+.tempo_menu{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  background-color:yellow;
+  position:absolute;
+  bottom:20px;
+  left:125px;
+}
+
+.tempo_prorder{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  background-color:green;
+  position:absolute;
+  bottom:20px;
+  left:175px;
+}
+
+.tempo_contact{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  background-color:blue;
+  position:absolute;
+  bottom:20px;
+  left:225px;
+}
