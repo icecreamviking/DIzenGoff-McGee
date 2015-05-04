@@ -28,9 +28,9 @@ body {
   display:block;
   height:85px;
   width:710px;
-  position:fixed;
+  position:absolute;
   left:15%;
-  bottom:305px;
+  bottom:105px;
   background-color:#371F1A;
   outline-color: #F4AC26;
   outline-width: 4px;
