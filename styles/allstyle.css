@@ -29,7 +29,7 @@ body {
   height:85px;
   width:710px;
   position:absolute;
-  left:15%;
+  left:20%;
   bottom:105px;
   background-color:#371F1A;
   outline-color: #F4AC26;
@@ -40,7 +40,7 @@ body {
   display:block;
   position: absolute;
   bottom:0px;
-  left:15%;
+  left:20%;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   height:1856px;
@@ -55,7 +55,7 @@ body {
   height:2350px;
   position:absolute;
   overflow:hidden;
-  left:15%;
+  left:20%;
   bottom:190px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
@@ -164,4 +164,17 @@ body {
   bottom:832px;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   transition:.7s;
+}
+
+.bloc_manifest{
+  opacity:1.0;
+  transition:.5s ease-out
+  transition-delay:.2s;
+}
+
+
+.bloc_vanish{
+  opacity:0;
+  transition:.5s ease-out
+  transition-delay:.2s;
 }
