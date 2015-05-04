@@ -29,7 +29,7 @@ body {
   height:85px;
   width:710px;
   position:fixed;
-  left:155px;
+  left:15%;
   bottom:305px;
   background-color:#371F1A;
   outline-color: #F4AC26;
@@ -40,7 +40,7 @@ body {
   display:block;
   position: absolute;
   bottom:0px;
-  left:155px;
+  left:15%;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   height:1856px;
