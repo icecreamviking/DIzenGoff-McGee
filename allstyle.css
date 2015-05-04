@@ -98,3 +98,33 @@ body {
   width:488px;
   bottom:100%;
 }
+
+.tower_return{
+  bottom:0px;
+  transition-timing-function:cubic-bezier(.5,0,.29,1);
+  transition:.7s;
+}
+
+.tower_about{
+  bottom:208px;
+  transition-timing-function:cubic-bezier(.5,0,.29,1);
+  transition:.7s;
+}
+
+.tower_menu{
+  bottom:416px;
+  transition-timing-function:cubic-bezier(.5,0,.29,1);
+  transition:.7s;
+}
+
+.tower_prorder{
+  bottom:624px;
+  transition-timing-function:cubic-bezier(.5,0,.29,1);
+  transition:.7s;
+}
+
+.tower_contact{
+  bottom:832px;
+  transition-timing-function:cubic-bezier(.5,0,.29,1);
+  transition:.7s;
+}
