@@ -188,6 +188,7 @@ body {
   position:absolute;
   bottom:20px;
   left:25px;
+  cursor:pointer;
 }
 
 .tempo_about{
@@ -198,6 +199,7 @@ body {
   position:absolute;
   bottom:20px;
   left:75px;
+  cursor:pointer;
 }
 
 .tempo_menu{
@@ -208,6 +210,7 @@ body {
   position:absolute;
   bottom:20px;
   left:125px;
+  cursor:pointer;
 }
 
 .tempo_prorder{
@@ -218,6 +221,7 @@ body {
   position:absolute;
   bottom:20px;
   left:175px;
+  cursor:pointer;
 }
 
 .tempo_contact{
@@ -228,4 +232,5 @@ body {
   position:absolute;
   bottom:20px;
   left:225px;
+  cursor:pointer;
 }
