@@ -72,7 +72,7 @@ body {
 .bloc_about{
   position:absolute;
   display:block;
-  hight:470px;
+  height:470px;
   width:488px;
   bottom:100%;
 }
@@ -80,7 +80,7 @@ body {
 .bloc_menu{
   position:absolute;
   display:block;
-  hight:470px;
+  height:470px;
   width:488px;
   bottom:100%;
 }
@@ -88,7 +88,7 @@ body {
 .bloc_prorder{
   position:absolute;
   display:block;
-  hight:470px;
+  height:470px;
   width:488px;
   bottom:100%;
 }
@@ -96,7 +96,7 @@ body {
 .bloc_contact{
   position:absolute;
   display:block;
-  hight:470px;
+  height:470px;
   width:488px;
   bottom:100%;
 }
