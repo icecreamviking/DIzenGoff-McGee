@@ -29,7 +29,7 @@ body {
   height:85px;
   width:710px;
   position:absolute;
-  left:25%;
+  left:30%;
   bottom:105px;
   background-color:#371F1A;
   outline-color: #F4AC26;
@@ -40,7 +40,7 @@ body {
   display:block;
   position: absolute;
   bottom:0px;
-  left:25%;
+  left:30%;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   height:1856px;
@@ -55,7 +55,7 @@ body {
   height:2350px;
   position:absolute;
   overflow:hidden;
-  left:25%;
+  left:30%;
   bottom:190px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
