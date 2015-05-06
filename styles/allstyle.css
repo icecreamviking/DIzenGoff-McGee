@@ -247,12 +247,3 @@ body {
   left:30%;
   overflow:hidden;
 }
-
-.social_fb{
-  background-image: url('../img/social/fb.png');
-  height:282px;
-  width:282px;
-  position:absolute;
-  bottom:0px;
-  -webkit-transform:scale(.25,.25);
-}
