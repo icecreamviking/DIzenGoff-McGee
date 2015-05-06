@@ -148,25 +148,25 @@ body {
 }
 
 .tower_about{
-  bottom:208px;
+  bottom:-208px;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   transition:.7s;
 }
 
 .tower_menu{
-  bottom:416px;
+  bottom:-416px;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   transition:.7s;
 }
 
 .tower_prorder{
-  bottom:624px;
+  bottom:-624px;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   transition:.7s;
 }
 
 .tower_contact{
-  bottom:832px;
+  bottom:-832px;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   transition:.7s;
 }
