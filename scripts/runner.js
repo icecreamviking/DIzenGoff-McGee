@@ -368,6 +368,102 @@ $('.tempo_menu').click(function() {
   }
 });
 
+
+//tower PRORDER
+
+//=========================tower home to prorder======================//
+
+$('.tempo_prorder').click(function() {
+  if($('.tower').hasClass('tower_return')) {
+    $('.tower').removeClass('tower_return');
+  }
+  else{
+    $('.tower').addClass('tower_prorder');
+  }
+});
+
+//=============================tower about to prorder==================//
+
+$('.tempo_prorder').click(function() {
+  if($('.tower').hasClass('tower_about')) {
+    $('.tower').removeClass('tower_about');
+  }
+  else{
+    $('.tower').addClass('tower_prorder');
+  }
+});
+
+//===============tower menu to prorder===========================//
+
+$('.tempo_prorder').click(function() {
+  if($('.tower').hasClass('tower_menu')) {
+    $('.tower').removeClass('tower_menu');
+  }
+  else{
+    $('.tower').addClass('tower_prorder');
+  }
+});
+
+//==========================tower contact to prorder===========================//
+
+$('.tempo_prorder').click(function() {
+  if($('.tower').hasClass('tower_contact')) {
+    $('.tower').removeClass('tower_contact');
+  }
+  else{
+    $('.tower').addClass('tower_prorder');
+  }
+});
+
+// tower CONTACT
+
+//====================tower home to contacct=============================//
+
+$('.tempo_contact').click(function() {
+  if($('.tower').hasClass('tower_return')) {
+    $('.tower').removeClass('tower_return');
+  }
+  else{
+    $('.tower').addClass('tower_contact');
+  }
+});
+
+//======================tower about to contact==========================//
+
+$('.tempo_contact').click(function() {
+  if($('.tower').hasClass('tower_about')) {
+    $('.tower').removeClass('tower_about');
+  }
+  else{
+    $('.tower').addClass('tower_contact');
+  }
+});
+
+//============================tower menu to contact=======================//
+
+$('.tempo_contact').click(function() {
+  if($('.tower').hasClass('tower_menu')) {
+    $('.tower').removeClass('tower_menu');
+  }
+  else{
+    $('.tower').addClass('tower_contact');
+  }
+});
+
+//==============================tower prorder to contact=====================//
+
+$('.tempo_contact').click(function() {
+  if($('.tower').hasClass('tower_prorder')) {
+    $('.tower').removeClass('tower_prorder');
+  }
+  else{
+    $('.tower').addClass('tower_contact');
+  }
+});
+
+//end TOWER//
+//============================================================================//
+
 //====andrews team of assassins!===================================
 
 //================================home========================================
