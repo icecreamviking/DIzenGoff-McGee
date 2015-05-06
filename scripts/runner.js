@@ -228,6 +228,145 @@ $('.tempo_contact').click(function() {
   }
 });
 
+//==============================TOWER==========================================
+
+//tower HOME
+
+//=======tower about to home================//
+
+$('.tempo_home').click(function() {
+  if($('.tower').hasClass('tower_about')) {
+    $('.tower').removeClass('tower_about');
+  }
+  else{
+    $('.tower').addClass('tower_return');
+  }
+});
+
+//============tower menu to home=============//
+
+$('.tempo_home').click(function() {
+  if($('.tower').hasClass('tower_menu')) {
+    $('.tower').removeClass('tower_menu');
+  }
+  else{
+    $('.tower').addClass('tower_return');
+  }
+});
+
+//===============tower prorder to home==================//
+
+$('.tempo_home').click(function() {
+  if($('.tower').hasClass('tower_prorder')) {
+    $('.tower').removeClass('tower_prorder');
+  }
+  else{
+    $('.tower').addClass('tower_return');
+  }
+});
+
+//================tower contact to home=========================//
+
+$('.tempo_home').click(function() {
+  if($('.tower').hasClass('tower_contact')) {
+    $('.tower').removeClass('tower_contact');
+  }
+  else{
+    $('.tower').addClass('tower_return');
+  }
+});
+
+//tower ABOUT
+
+//===================tower home to about================================//
+
+$('.tempo_about').click(function() {
+  if($('.tower').hasClass('tower_return')) {
+    $('.tower').removeClass('tower_return');
+  }
+  else{
+    $('.tower').addClass('tower_about');
+  }
+});
+
+//=======================tower menu to about==============================//
+
+$('.tempo_about').click(function() {
+  if($('.tower').hasClass('tower_menu')) {
+    $('.tower').removeClass('tower_menu');
+  }
+  else{
+    $('.tower').addClass('tower_about');
+  }
+});
+
+//==================================tower prorder to about========================//
+
+$('.tempo_about').click(function() {
+  if($('.tower').hasClass('tower_prorder')) {
+    $('.tower').removeClass('tower_prorder');
+  }
+  else{
+    $('.tower').addClass('tower_about');
+  }
+});
+
+//======================tower contact to about===============================//
+
+$('.tempo_about').click(function() {
+  if($('.tower').hasClass('tower_contact')) {
+    $('.tower').removeClass('tower_contact');
+  }
+  else{
+    $('.tower').addClass('tower_about');
+  }
+});
+
+// tower MENU
+
+//============================tower home to menu================================//
+
+$('.tempo_menu').click(function() {
+  if($('.tower').hasClass('tower_return')) {
+    $('.tower').removeClass('tower_return');
+  }
+  else{
+    $('.tower').addClass('tower_menu');
+  }
+});
+
+//==================================tower about to menu=======================//
+
+$('.tempo_menu').click(function() {
+  if($('.tower').hasClass('tower_about')) {
+    $('.tower').removeClass('tower_about');
+  }
+  else{
+    $('.tower').addClass('tower_menu');
+  }
+});
+
+//=================tower prorder to menu================================//
+
+$('.tempo_menu').click(function() {
+  if($('.tower').hasClass('tower_prorder')) {
+    $('.tower').removeClass('tower_prorder');
+  }
+  else{
+    $('.tower').addClass('tower_menu');
+  }
+});
+
+//=========================tower contact to menu=============================//
+
+$('.tempo_menu').click(function() {
+  if($('.tower').hasClass('tower_contact')) {
+    $('.tower').removeClass('tower_contact');
+  }
+  else{
+    $('.tower').addClass('tower_menu');
+  }
+});
 
 //====andrews team of assassins!===================================
 
