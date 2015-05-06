@@ -15,7 +15,7 @@ body {
 }
 
 .spine {
-  background-image: url('.img/BG.png');
+  background-image: url('../img/BG.png');
   background-size:cover;
   height:1024px;
   width:100%;
@@ -45,7 +45,7 @@ body {
   transition-timing-function:cubic-bezier(.5,0,.29,1);
   height:1856px;
   width:710px;
-  background-image: url('..img/tower.png');
+  background-image: url('../img/tower.png');
   background-size:cover;
 }
 
