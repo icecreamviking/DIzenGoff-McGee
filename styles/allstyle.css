@@ -240,9 +240,17 @@ body {
 }
 
 .social_carry{
-  height:
-  width:
+  height:60px;
+  width:230px;
   position:absolute;
   top:150px;
-  left:
+  left:30%;
+}
+
+.social_fb{
+  background-image: url('../img/social/fb.png');
+  height:282px;
+  width:282px;
+  position:absolute;
+  bottom:0px;
 }
