@@ -254,4 +254,5 @@ body {
   width:282px;
   position:absolute;
   bottom:0px;
+  -webkit-transform:scale(.25,.25);
 }
