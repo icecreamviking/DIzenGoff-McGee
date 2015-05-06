@@ -15,7 +15,7 @@ body {
 }
 
 .spine {
-  background-image: url('..img/BG.png');
+  background-image: url('.img/BG.png');
   background-size:cover;
   height:1024px;
   width:100%;
