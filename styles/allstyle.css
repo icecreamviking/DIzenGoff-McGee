@@ -247,3 +247,10 @@ body {
   left:30%;
   overflow:hidden;
 }
+
+.social_fb{
+  height:50px;
+  width:50px;
+  position:absolute;
+  transition:.25s ease-out;
+}
