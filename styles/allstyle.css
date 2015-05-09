@@ -31,8 +31,9 @@ body {
   left:28%;
   bottom:105px;
   background-color:#371F1A;
-  outline-color: #F4AC26;
+  outline-color: #83A96C;
   outline-width: 4px;
+  outline-style:solid;
 }
 
 .tower{
@@ -253,4 +254,27 @@ body {
   width:50px;
   position:absolute;
   transition:.25s ease-out;
+}
+
+.fotter_carrier{
+  height:195px;
+  width:100%;
+  position:absolute;
+  bottom:0px;
+}
+
+.fotter_stroke{
+  height:100%;
+  width:100%;
+  outline-style:solid;
+  outline-color:#F8AB1E;
+  outline-width:4px;
+  position:absolute;
+}
+
+.nav_crab{
+  width:25%;
+  height:100%;
+  position:relative;
+  left:0px;
 }
