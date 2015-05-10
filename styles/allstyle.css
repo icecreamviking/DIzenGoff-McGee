@@ -310,3 +310,27 @@ body {
   left:25%;
   -webkit-transform:scale(1.4,1.4);
 }
+
+.about_gemini_1{
+  height:485px;
+  width:330px;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
+  position:absolute;
+  left:-100px;
+
+}
+
+.about_gemini_2{
+  height:485px;
+  width:330px;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
+  position:absolute;
+  right:100px;
+
+}
