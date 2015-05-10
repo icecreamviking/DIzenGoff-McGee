@@ -225,7 +225,7 @@ body {
   background-image:url('../img/prorder_button.png');
   position:absolute;
   bottom:0px;
-  left:0px;
+  left:-25px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
 }
