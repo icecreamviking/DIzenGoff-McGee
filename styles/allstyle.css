@@ -200,12 +200,12 @@ body {
 .tempo_about{
   height:55px;
   width:238px;
-  border-radius:25px;
   background-image:url('../img/about_button.png');
   position:absolute;
-  bottom:20px;
-  left:75px;
+  bottom:0px;
+  left:0px;
   cursor:pointer;
+  -webkit-transform:scale(.6,.6);
 }
 
 .tempo_menu{
