@@ -64,31 +64,31 @@ body {
 }
 
 .vanguard_return{
-  bottom:190px;
+  bottom:275px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
 }
 
 .vanguard_about{
-  bottom:-280px;
+  bottom:-195px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
 }
 
 .vanguard_menu{
-  bottom:-750px;
+  bottom:-665px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
 }
 
 .vanguard_prorder{
-  bottom:-1220px;
+  bottom:-1135px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
 }
 
 .vanguard_contact{
-  bottom:-1690px;
+  bottom:-1605px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
 }
