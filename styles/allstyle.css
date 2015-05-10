@@ -263,6 +263,8 @@ body {
   width:100%;
   position:absolute;
   bottom:0px;
+  background-image: url('../img/peas.png');
+  background-size:cover;
 }
 
 .fotter_stroke{
