@@ -296,4 +296,6 @@ body {
   position:absolute;
   background-image: url('../img/title.png');
   top:10px;
+  height:199px;
+  width:1079px;
 }
