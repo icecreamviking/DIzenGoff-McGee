@@ -202,8 +202,8 @@ body {
   width:238px;
   background-image:url('../img/about_button.png');
   position:absolute;
-  bottom:0px;
-  left:0px;
+  bottom:15px;
+  left:-25px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
 }
