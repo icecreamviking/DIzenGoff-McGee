@@ -1,6 +1,6 @@
 html {
   display: block;
-  height:1219px;
+  height:1024px;
   width:100%;
 }
 
@@ -29,7 +29,7 @@ body {
   width:710px;
   position:absolute;
   left:28%;
-  bottom:300px;
+  bottom:105px;
   background-color:#371F1A;
   outline-color: #83A96C;
   outline-width: 4px;
@@ -56,7 +56,7 @@ body {
   position:absolute;
   overflow:hidden;
   left:28%;
-  bottom:385px;
+  bottom:190px;
   transition:.7s;
   transition-timing-function:cubic-bezier(.5,0,.29,1);
 }
