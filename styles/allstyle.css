@@ -233,7 +233,7 @@ body {
 .tempo_contact{
   height:55px;
   width:223px;
-  background-image:url('../img/contact_button.png')
+  background-image:url('../img/contact_button.png');
   position:absolute;
   bottom:0px;
   left:0px;
