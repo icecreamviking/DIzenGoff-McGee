@@ -56,7 +56,6 @@ body {
   width:710px;
   height:2350px;
   position:absolute;
-  overflow:hidden;
   left:28%;
   bottom:275px;
   transition:.7s;
@@ -298,4 +297,5 @@ body {
   top:10px;
   height:199px;
   width:1079px;
+  -webkit-transform:scale(.75,.75);
 }
