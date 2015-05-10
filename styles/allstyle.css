@@ -209,14 +209,14 @@ body {
 }
 
 .tempo_menu{
-  height:50px;
-  width:50px;
-  border-radius:25px;
-  background-color:yellow;
+  height:54px;
+  width:134px;
+  background-image:url('../img/menu_button.png')
   position:absolute;
-  bottom:20px;
-  left:125px;
+  bottom:15px;
+  left:-25px;
   cursor:pointer;
+  -webkit-transform:scale(.6,.6);
 }
 
 .tempo_prorder{
