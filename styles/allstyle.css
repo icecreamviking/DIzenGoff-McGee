@@ -282,3 +282,12 @@ body {
   position:relative;
   float:left;
 }
+
+.goff_log{
+  height:195px;
+  width:195px;
+  background-image:url('../img/goff_logo.png');
+  background-size:cover;
+  position:absolute;
+  left:0px;
+}
