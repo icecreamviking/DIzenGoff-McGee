@@ -295,8 +295,16 @@ body {
   position:absolute;
   background-image: url('../img/title.png');
   top:10px;
-  left:-28%;
+  left:-27%;
   height:199px;
   width:1079px;
   -webkit-transform:scale(.75,.75);
+}
+
+.tag{
+  position:absolute;
+  height:59px;
+  width:583px;
+  background-image:url('../img/tag.png');
+  top:210%;
 }
