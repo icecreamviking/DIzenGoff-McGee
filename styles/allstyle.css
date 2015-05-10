@@ -198,10 +198,10 @@ body {
 }
 
 .tempo_about{
-  height:50px;
-  width:50px;
+  height:55px;
+  width:238px;
   border-radius:25px;
-  background-color:orange;
+  background-image:url('../img/about_button.png');
   position:absolute;
   bottom:20px;
   left:75px;
