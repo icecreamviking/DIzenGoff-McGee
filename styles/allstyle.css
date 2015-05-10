@@ -21,6 +21,8 @@ body {
   height:1024px;
   width:100%;
   overflow:hidden;
+  position:absolute;
+  bottom:195px;
 }
 
 .nav{
@@ -29,7 +31,7 @@ body {
   width:710px;
   position:absolute;
   left:28%;
-  bottom:105px;
+  bottom:198px;
   background-color:#371F1A;
   outline-color: #83A96C;
   outline-width: 4px;
