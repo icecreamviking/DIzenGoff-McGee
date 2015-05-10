@@ -291,3 +291,9 @@ body {
   position:absolute;
   left:0px;
 }
+
+.title{
+  position:absolute;
+  background-image: url('../img/title.png');
+  top:10px;
+}
