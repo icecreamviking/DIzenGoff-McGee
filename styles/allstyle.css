@@ -211,7 +211,7 @@ body {
 .tempo_menu{
   height:54px;
   width:134px;
-  background-image:url('../img/menu_button.png')
+  background-image:url('../img/menu_button.png');
   position:absolute;
   bottom:15px;
   left:-25px;
