@@ -308,5 +308,5 @@ body {
   background-image:url('../img/tag.png');
   top:200px;
   left:26%;
-  -webkit-transform:scale(110,110);
+  -webkit-transform:scale(1.1,1.1);
 }
