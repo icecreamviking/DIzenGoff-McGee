@@ -214,7 +214,7 @@ body {
   background-image:url('../img/menu_button.png');
   position:absolute;
   bottom:15px;
-  left:-25px;
+  left:0px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
 }
