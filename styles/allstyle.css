@@ -320,7 +320,7 @@ body {
   outline-style:solid;
   position:absolute;
   left:-25px;
-  bottom:75px;
+  bottom:60px;
 
 }
 
@@ -333,6 +333,13 @@ body {
   outline-style:solid;
   position:absolute;
   right:-25px;
-  bottom:75px;
+  bottom:60px;
 
+}
+
+.about_guts{
+  background-image:url('../img/about_guts.png');
+  width:276px;
+  height:375px;
+  position:absolute;
 }
