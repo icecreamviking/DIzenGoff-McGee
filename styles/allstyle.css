@@ -471,8 +471,8 @@ body {
   height:116px;
   width:343px;
   position:absolute;
-  top:-20px;
-  left:-25px;
+  top:-40px;
+  left:-45px;
   background-image:url('../img/all_orders.png');
   -webkit-transform:scale(.9,.9);
 }
