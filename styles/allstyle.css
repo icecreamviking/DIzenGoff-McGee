@@ -411,7 +411,7 @@ body {
   background-color:#371F1A;
   box-shadow: 0 0 0 3pt #83A96C;
   position:bottom:50%;
-  left:-100px;
+  left:-75px;
   cursor:pointer;
   position:absolute;
   top:150px;
@@ -425,7 +425,7 @@ body {
   background-color:#371F1A;
   box-shadow: 0 0 0 3pt #83A96C;
   position:bottom:50%;
-  left:250px;
+  left:220px;
   cursor:pointer;
   position:absolute;
   top:150px;
@@ -438,7 +438,7 @@ body {
   background-image:url('../img/green_arrow.png');
   position:absolute;
   -webkit-transform:scale(.7,.7);
-  left:25px;
+  left:15px;
 }
 
 .gemini_arrowR{
