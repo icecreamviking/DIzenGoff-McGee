@@ -508,3 +508,11 @@ body {
   top:-5px;
   left:-10px;
 }
+
+.menu_date{
+  height:159px;
+  width:166px;
+  background-image:url('../img/date_tag');
+  position:absolute;
+  top:0px;
+}
