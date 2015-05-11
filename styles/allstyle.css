@@ -403,3 +403,48 @@ body {
   top:50px;
   left:20px;
 }
+
+.gemini_LARROW{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
+  position:bottom:50%;
+  left:-50%;
+  cursor:pointer;
+}
+
+.gemini_RARROW{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
+  position:bottom:50%;
+  right:-50%;
+  cursor:pointer;
+}
+
+.gemini_arrowL{
+  height:94px;
+  width:60px;
+  background-image:url('../img/green_arrow.png');
+  position:absolute;
+}
+
+.gemini_arrowR{
+  height:94px;
+  width:60px;
+  background-image:url('../img/green_arrow.png');
+  position:absolute;
+  -webkit-transform:rotate(180deg);
+}
+
+.arrow_hover{
+  outline-color:#D5006D;
+}
