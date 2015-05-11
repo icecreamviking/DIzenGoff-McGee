@@ -471,14 +471,94 @@ $('.tempo_contact').click(function() {
 
 
 //MENU//
+//=======left
 
 //======left out from def ============//
 
-$('.gemini_larrow').click(function() {
+$('.gemini_LARROW').click(function() {
   if($('.gemini_menu_killer').hasClass('gemini_menu_def')) {
     $('.gemini_menu_killer').removeClass('gemini_menu_def');
   }
   else{
     $('.gemini_menu_killer').addClass('gemini_menu_2');
+  }
+});
+
+//======left out from 2=========//
+
+$('.gemini_LARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_2')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_2');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_3');
+  }
+});
+
+//=============left out from 3===================//
+
+$('.gemini_LARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_3')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_3');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_4');
+  }
+});
+
+//==============left from 4========================//
+
+$('.gemini_LARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_4')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_4');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_5');
+  }
+});
+
+//========right
+
+//=======right from 2===============//
+
+$('.gemini_RARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_2')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_2');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_def');
+  }
+});
+
+//========right from 3-------------------//
+
+$('.gemini_RARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_3')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_3');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_2');
+  }
+});
+
+//==========right from 4========================//
+
+$('.gemini_RARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_4')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_4');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_3');
+  }
+});
+
+//=============right from 5===========================//
+
+$('.gemini_RARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_5')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_5');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_4');
   }
 });
