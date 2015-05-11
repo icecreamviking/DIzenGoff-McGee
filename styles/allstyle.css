@@ -499,3 +499,12 @@ body {
   background-image:url('../img/pikachu.png');
   left:10px;
 }
+
+.pikachu_insurance{
+  height:5px;
+  width:260px;
+  background-color:#F8AB1E;
+  position:absolute;
+  top:-5px;
+  left:-10px;
+}
