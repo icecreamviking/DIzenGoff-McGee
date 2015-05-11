@@ -474,7 +474,7 @@ $('.tempo_contact').click(function() {
 
 //======left out from def ============//
 
-$('.gemini_LARROW').click(function() {
+$('.gemini_larrow').click(function() {
   if($('.gemini_menu_killer').hasClass('gemini_menu_def')) {
     $('.gemini_menu_killer').removeClass('gemini_menu_def');
   }
