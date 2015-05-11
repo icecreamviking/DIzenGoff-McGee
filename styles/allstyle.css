@@ -344,6 +344,10 @@ body {
   bottom:60px;
   position:absolute;
   overflow:hidden;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
 }
 
 .gemini_menu_L{
@@ -353,6 +357,10 @@ body {
   bottom:60px;
   position:absolute;
   overflow:hidden;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
 }
 
 .gemini_menu_killer{
