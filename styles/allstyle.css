@@ -512,7 +512,7 @@ body {
 .menu_date{
   height:159px;
   width:166px;
-  background-image:url('../img/date_tag');
+  background-image:url('../img/date_tag.png');
   position:absolute;
   top:0px;
 }
