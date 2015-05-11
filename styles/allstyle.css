@@ -502,9 +502,9 @@ body {
 
 .pikachu_insurance{
   height:5px;
-  width:260px;
+  width:330px;
   background-color:#F8AB1E;
   position:absolute;
   top:-5px;
-  left:0px;
+  left:-10px;
 }
