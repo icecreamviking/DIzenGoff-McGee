@@ -414,7 +414,7 @@ body {
   left:-100px;
   cursor:pointer;
   position:absolute;
-  top:175px;
+  top:150px;
   z-index:1;
 }
 
@@ -428,7 +428,7 @@ body {
   left:250px;
   cursor:pointer;
   position:absolute;
-  top:175px;
+  top:150px;
   z-index:1;
 }
 
@@ -438,7 +438,7 @@ body {
   background-image:url('../img/green_arrow.png');
   position:absolute;
   -webkit-transform:scale(.7,.7);
-  left:40px;
+  left:25px;
 }
 
 .gemini_arrowR{
@@ -447,7 +447,7 @@ body {
   background-image:url('../img/green_arrow.png');
   position:absolute;
   -webkit-transform:scale(-.7,.7);
-  left:40px;
+  left:25px;
 }
 
 .gemini_LARROW:hover{
