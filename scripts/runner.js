@@ -473,6 +473,12 @@ $('.tempo_contact').click(function() {
 //MENU//
 
 //======left out from def ============//
-$('.gemini_arrowL').click(function() {
-  $('.gemini_menu_killer').addClass('gemini_menu_2');
+
+$('.gemini_LARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_def')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_def');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_2');
+  }
 });
