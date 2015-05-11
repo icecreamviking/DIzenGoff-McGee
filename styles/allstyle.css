@@ -490,3 +490,10 @@ body {
   top:190px;
   left:50px;
 }
+
+.menu_pikachu{
+  height:246px;
+  width:315px;
+  position:absolute;
+  bottom:0px;
+}
