@@ -476,3 +476,12 @@ body {
   background-image:url('../img/all_orders.png');
   -webkit-transform:scale(.9,.9);
 }
+
+.men_chicken{
+  height:161px;
+  width:260px;
+  background-image:url('../img/chicken.png');
+  position:absolute;
+  top:190px;
+  left:50px;
+}
