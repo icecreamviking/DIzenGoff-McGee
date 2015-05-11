@@ -467,3 +467,17 @@ $('.tempo_contact').click(function() {
 //====andrews team of assassins!===================================
 
 //================================home========================================
+
+
+
+//MENU//
+
+//======left out from def ============//
+$('.gemini_LARROW').click(function() {
+  if($('.gemini_menu_killer').hasClass('gemini_menu_def')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_def');
+  }
+  else{
+    $('.gemini_menu_killer').addClass('gemini_menu_2');
+  }
+});
