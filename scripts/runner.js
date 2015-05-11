@@ -473,6 +473,6 @@ $('.tempo_contact').click(function() {
 //MENU//
 
 //======left out from def ============//
-$('.gemini_LARROW').click(function() {
+$('.gemini_arrowL').click(function() {
   $('.gemini_menu_killer').addClass('gemini_menu_2');
 });
