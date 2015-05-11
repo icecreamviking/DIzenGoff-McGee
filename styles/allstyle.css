@@ -472,7 +472,7 @@ body {
   width:343px;
   position:absolute;
   top:0px;
-  left:-75px;
+  left:-55px;
   background-image:url('../img/all_orders.png');
-  -webkit-transform:scale(.8,.8);
+  -webkit-transform:scale(.9,.9);
 }
