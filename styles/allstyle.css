@@ -463,7 +463,8 @@ body {
   width:222px;
   background-image:url('../img/tehina.png');
   position:absolute;
-  bottom:0px;
+  bottom:25px;
+  left:25px;
 }
 
 .men_overwatch{
@@ -471,6 +472,7 @@ body {
   width:343px;
   position:absolute;
   -webkit-transform:scale(.7,.7);
-  top:0px;
+  top:-100px;
+  left:-100px;
   background-image:url('../img/all_orders.png');
 }
