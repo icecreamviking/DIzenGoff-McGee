@@ -476,6 +476,7 @@ $('.tempo_contact').click(function() {
 $('.gemini_LARROW').click(function() {
   if($('.gemini_menu_killer').hasClass('gemini_menu_def')) {
     $('.gemini_menu_killer').removeClass('gemini_menu_def');
+    $('.gemini_menu_killer').addClass('gemini_menu_2');
   }
   else{
     $('.gemini_menu_killer').addClass('gemini_menu_2');

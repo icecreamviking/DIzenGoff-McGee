@@ -366,6 +366,7 @@ body {
 .gemini_menu_killer{
   height:485px;
   width:1650px;
+  transition:.25s ease-out;
 }
 
 .gemini_menu_tail{
@@ -377,18 +378,22 @@ body {
 
 .gemini_menu_def{
   left:0px;
+  transition:.25s ease-out;
 }
 
 .gemini_menu_2{
   left:-330px;
+  transition:.25s ease-out;
 }
 
 .gemini_menu_3{
   left:-660px;
+  transition:.25s ease-out;
 }
 
 .gemini_menu_4{
   left:-990px;
+  transition:.25s ease-out;
 }
 
 .gemini_menu_5{
