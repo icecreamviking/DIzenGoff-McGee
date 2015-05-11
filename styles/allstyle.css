@@ -449,10 +449,6 @@ body {
   -webkit-transform:scale(.7,.7);
 }
 
-.gemini_LARROW:hover{
-  box-shadow: 0 0 0 3pt #D5006D;
-}
-
-.gemini_RARROW:hover{
+.arrow_hover{
   box-shadow: 0 0 0 3pt #D5006D;
 }
