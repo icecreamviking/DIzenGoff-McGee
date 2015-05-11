@@ -445,8 +445,7 @@ body {
   width:60px;
   background-image:url('../img/green_arrow.png');
   position:absolute;
-  -webkit-transform:rotate(180deg);
-  -webkit-transform:scale(.7,.7);
+  -webkit-transform:scale(-.7,.7);
 }
 
 .gemini_LARROW:hover{
