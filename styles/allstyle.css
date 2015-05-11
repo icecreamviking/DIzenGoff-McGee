@@ -337,6 +337,56 @@ body {
 
 }
 
+.gemini_menu_R{
+  height:485px;
+  width:330px;
+  right:-75px;
+  bottom:60px;
+  position:absolute;
+  overflow:hidden;
+}
+
+.gemini_menu_L{
+  height:485px;
+  width:330px;
+  left:-75px;
+  bottom:60px;
+  position:absolute;
+  overflow:hidden;
+}
+
+.gemini_menu_killer{
+  height:485px;
+  width:1650px;
+}
+
+.gemini_menu_tail{
+  height:485px;
+  width:330px;
+  position:relative;
+  float:right;
+}
+
+.gemini_menu_def{
+  left:0px;
+}
+
+.gemini_menu_2{
+  left:-330px;
+}
+
+.gemini_menu_3{
+  left:-660px;
+}
+
+.gemini_menu_4{
+  left:-990px;
+}
+
+.gemini_menu_5{
+  left:-1320px;
+}
+
 .about_guts{
   background-image:url('../img/about_guts.png');
   width:276px;
