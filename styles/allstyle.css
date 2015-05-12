@@ -534,5 +534,6 @@ body {
   width:315px;
   background-image:url('../img/contact_guts.png');
   position:absolute;
-  bottom:20px;
+  bottom:40px;
+  left:50px;
 }
