@@ -545,9 +545,9 @@ input[type=text]{
   height:50px;
   text-align:left;
   border-radius:5px;
-  font-size:24px;
+  font-size:18px;
   border:none;
-  color:rgba(255,255,255, 1);
+  color:rgba(255,255,255, .7);
 }
 
 .prorder_carry{
