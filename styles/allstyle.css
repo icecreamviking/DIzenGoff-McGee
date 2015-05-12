@@ -602,7 +602,7 @@ input[type=text]{
   position: absolute;
   background-color:black;
   top:70px;
-  right:20px;
+  right:6px;
 }
 
 .prorder_date{
@@ -610,6 +610,8 @@ input[type=text]{
   width:190px;
   position: absolute;
   background-color:black;
+  top:140px;
+  left:20px;
 }
 
 .prorder_time{
@@ -617,6 +619,8 @@ input[type=text]{
   width:190px;
   position: absolute;
   background-color:black;
+  top:140px;
+  right:6px;
 }
 
 .prorder_quantity{
