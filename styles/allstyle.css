@@ -530,8 +530,8 @@ body {
 }
 
 .contact_guts{
-  height:315px;
-  width:404px;
+  height:404px;
+  width:315px;
   background-image:url('../img/contact_guts.png');
   position:absolute;
   bottom:20px;
