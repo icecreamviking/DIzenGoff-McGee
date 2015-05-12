@@ -562,7 +562,7 @@ input[type=text]{
 }
 
 .prorder_tag{
-  background-image:url('/../img/quart_hummus.png');
+  background-image:url('../img/quart_hummus.png');
   height:100px;
   width:390px;
   position:absolute;
