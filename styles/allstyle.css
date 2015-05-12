@@ -562,14 +562,14 @@ input[type=text]{
 }
 
 .prorder_tag{
-  bacgkround-image:url('/../img/quart_hummus.png');
+  background-image:url('/../img/quart_hummus.png');
   height:100px;
   width:390px;
   position:absolute;
   top: 50px;
 }
 
-.proder_input_master{
+.prorder_input_master{
   height:230px;
   width:425px;
   position:absolute;
