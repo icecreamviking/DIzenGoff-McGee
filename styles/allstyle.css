@@ -566,7 +566,8 @@ input[type=text]{
   height:100px;
   width:390px;
   position:absolute;
-  top: 50px;
+  top: 40px;
+  left: 40px;
 }
 
 .prorder_input_master{
@@ -574,7 +575,7 @@ input[type=text]{
   width:425px;
   position:absolute;
   left:25px;
-  bottom:75px;
+  bottom:85px;
 }
 
 .prorder_name{
@@ -582,34 +583,40 @@ input[type=text]{
   height:50px;
   position:absolute;
   top:0px;
+  background-color:black;
 }
 
 .prorder_phone{
   height:50px;
   width:190px;
   position: absolute;
+  background-color:black;
 }
 
 .prorder_email{
   height:50px;
   width:190px;
   position: absolute;
+  background-color:black;
 }
 
 .prorder_date{
   height:50px;
   width:190px;
   position: absolute;
+  background-color:black;
 }
 
 .prorder_time{
   height:50px;
   width:190px;
   position: absolute;
+  background-color:black;
 }
 
 .prorder_quantity{
   height:50px;
   width:190px;
   position: absolute;
+  background-color:black;
 }
