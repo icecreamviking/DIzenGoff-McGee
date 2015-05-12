@@ -98,8 +98,7 @@ body {
   display:block;
   height:470px;
   width:100%;
-  background-color:red;
-  opacity:.5;
+  
 }
 
 .bloc_about{
@@ -108,8 +107,7 @@ body {
   height:470px;
   width:100%;
   bottom:470px;
-  background-color:orange;
-  opacity:.5;
+
 }
 
 .bloc_menu{
@@ -118,8 +116,7 @@ body {
   height:470px;
   width:100%;
   bottom:940px;
-  background-color:yellow;
-  opacity:.5;
+
 }
 
 .bloc_prorder{
@@ -128,8 +125,7 @@ body {
   height:470px;
   width:100%;
   bottom:1410px;
-  background-color:green;
-  opacity:.5;
+
 }
 
 .bloc_contact{
@@ -138,8 +134,7 @@ body {
   height:470px;
   width:100%;
   bottom:1880px;
-  background-color:blue;
-  opacity:.5;
+
 }
 
 .tower_return{
