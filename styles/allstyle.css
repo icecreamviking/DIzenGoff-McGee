@@ -517,3 +517,22 @@ body {
   top:35px;
   left:80px;
 }
+
+.contact_carry{
+  height:475px;
+  width:475px;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
+  position:absolute;
+  bottom:60px;
+}
+
+.contact_guts{
+  height:315px;
+  width:404px;
+  background-image:url('../img/contact_guts.png');
+  position:absolute;
+  bottom:20px;
+}
