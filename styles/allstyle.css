@@ -628,4 +628,6 @@ input[type=text]{
   width:190px;
   position: absolute;
   background-color:black;
+  top:220px;
+  left:150px;
 }
