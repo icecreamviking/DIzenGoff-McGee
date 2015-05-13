@@ -670,7 +670,7 @@ input[type=text]{
   width:72px;
   height:112px;
   position:absolute;
-  bottom:0px;
+  bottom:70px;
   opacity:1;
   background-image:url('../img/about_log.png');
   transition:.25s ease-out;
@@ -680,7 +680,7 @@ input[type=text]{
   width:104px;
   height:112px;
   position:absolute;
-  bottom:0px;
+  bottom:70px;
   opacity:1;
   background-image:url('../img/menu_log.png');
   transition:.25s ease-out;
@@ -691,7 +691,7 @@ input[type=text]{
   height:109px;
   width:118px;
   position:absolute;
-  bottom:0px;
+  bottom:70px;
   opacity:1;
   transition:.25s ease-out;
 }
@@ -702,6 +702,6 @@ input[type=text]{
   background-image:url('../img/contact_log.png');
   position:absolute;
   opacity:1;
-  bottom:0px;
+  bottom:70px;
   transition:.25s ease-out;
 }
