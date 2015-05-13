@@ -728,3 +728,24 @@ $('.family_all').click(function() {
   $('.family_all').addClass('family_all_hide')
 
 });
+
+
+//BRUNCH//
+
+//in//
+
+$('.tempo_brunch').click(function() {
+  $('.brunch_big').addClass('brunch_inz');
+  $('.vanguard').addClass('destro_punch');
+
+
+});
+
+//out//
+
+$('.destro').click(function() {
+  $('.brunch_big').removeClass('brunch_inz');
+  $('.vanguard').removeClass('destro_punch');
+
+
+});

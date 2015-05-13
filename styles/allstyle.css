@@ -946,3 +946,45 @@ input[type=text]{
   -webkit-transform:scale(1.2,1.2);
   transition:.25s ease-out;
 }
+
+.brunch_big{
+  height:475px;
+  width:475px;
+  position:absolute;
+  top:100px;
+  left:38%;
+  background-color:#371F1A;
+  outline-color: #83A96C;
+  outline-width: 4px;
+  outline-style:solid;
+  opacity:0;
+  transition:.25s ease-out;
+}
+
+.destro{
+  width:37px;
+  height:35px;
+  background-image:url('../img/destro.png');
+  position:absolute;
+  top:5px;
+  right:5px;
+}
+
+.destro_punch{
+  opacity:0;
+  transition:.25s ease-out;
+}
+
+.brunch_inz{
+  opacity:1;
+  transition:.25s ease-out;
+}
+
+.brunch_tag{
+  width:425px;
+  height:220px;
+  background-image:url('../img/brnch_tagge.png');
+  position:absolute;
+  top:25px;
+  left:10px;
+}
