@@ -470,7 +470,7 @@ body {
   z-index:1;
 }
 
-.gemini_arrow_r{
+.gemini_arrow_l{
   height:94px;
   width:60px;
   background-image:url('../img/green_arrow.png');
@@ -479,7 +479,7 @@ body {
   left:15px;
 }
 
-.gemini_arrow_l{
+.gemini_arrow_r{
   height:94px;
   width:60px;
   background-image:url('../img/green_arrow.png');
