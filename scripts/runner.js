@@ -467,6 +467,15 @@ $('.tempo_contact').click(function() {
 //====andrews team of assassins!===================================//
 
 //home apparate kill about//
+$('.tempo_home').click(function() {
+  if($('.bloc_def').hasClass('bloc_vanish')) {
+    $('.bloc_def').removeClass('bloc_vanish');
+  }
+  else{
+    $('.bloc_about').removeClass('bloc_manifest');
+  }
+});
+
 
 $('.tempo_home').click(function() {
   if($('.bloc_about').hasClass('bloc_manifest')) {
