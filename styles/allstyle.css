@@ -253,6 +253,15 @@ body {
   -webkit-transform:scale(.6,.6);
 }
 
+.tempo_brunch{
+  width:147px;
+  height:66px;
+  background-image:url('../img/footer_brunch.png');
+  position:absolute;
+  bottom:100px;
+  left:50px;
+}
+
 .social_carry{
   height:60px;
   width:230px;
