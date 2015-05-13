@@ -670,7 +670,8 @@ input[type=text]{
   width:72px;
   height:112px;
   position:absolute;
-  bottom:70px;
+  left:50px;
+  bottom:-70px;
   opacity:1;
   background-image:url('../img/about_log.png');
   transition:.25s ease-out;
@@ -680,7 +681,8 @@ input[type=text]{
   width:104px;
   height:112px;
   position:absolute;
-  bottom:70px;
+  left:25px;
+  bottom:-70px;
   opacity:1;
   background-image:url('../img/menu_log.png');
   transition:.25s ease-out;
@@ -691,7 +693,8 @@ input[type=text]{
   height:109px;
   width:118px;
   position:absolute;
-  bottom:70px;
+  left:20px;
+  bottom:-70px;
   opacity:1;
   transition:.25s ease-out;
 }
@@ -702,7 +705,8 @@ input[type=text]{
   background-image:url('../img/contact_log.png');
   position:absolute;
   opacity:1;
-  bottom:70px;
+  left:20px;
+  bottom:-70px;
   transition:.25s ease-out;
 }
 
@@ -716,7 +720,7 @@ input[type=text]{
 .family_all{
   height:113px;
   width:185px;
-  background-image:url('../img/cooknsolo.png';)
+  background-image:url('../img/cooknsolo.png');
   position:absolute;
   opacity:1;
   transition:.25s ease-out;
