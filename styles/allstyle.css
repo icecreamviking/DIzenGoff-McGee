@@ -193,12 +193,20 @@ body {
 .tempo_home{
   height:34px;
   width:80px;
-  border-radius:25px;
   background-image:url('../img/home_button.png');
   position:absolute;
-  top:60px;
+  top:140px;
   left:25px;
   cursor:pointer;
+}
+
+.home_butt{
+  width:75px;
+  height:94px;
+  background-image:url('../img/home_log.png');
+  position:absolute;
+  top:-90px;
+
 }
 
 .tempo_about{
