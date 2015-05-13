@@ -228,10 +228,11 @@ body {
   left:-25px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
+  transition:.25s ease-out;
 }
 
 .tempo_about:hover{
-  -webkit-transform:scale(1.2,1.2);
+  -webkit-transform:scale(.8,.8);
   transition:.25s ease-out;
 }
 
@@ -244,6 +245,12 @@ body {
   left:20px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
+  transition:.25s ease-out;
+}
+
+.tempo_menut:hover{
+  -webkit-transform:scale(.8,.8);
+  transition:.25s ease-out;
 }
 
 .tempo_prorder{
@@ -255,10 +262,11 @@ body {
   left:-50px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
+  transition:.25s ease-out;
 }
 
 .tempo_prorder:hover{
-  -webkit-transform:scale(1.2,1.2);
+  -webkit-transform:scale(.8,.8);
   transition:.25s ease-out;
 }
 
@@ -271,10 +279,11 @@ body {
   left:-20px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
+  transition:.25s ease-out;
 }
 
 .tempo_contact:hover{
-  -webkit-transform:scale(1.2,1.2);
+  -webkit-transform:scale(.8,.8);
   transition:.25s ease-out;
 }
 
