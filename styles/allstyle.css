@@ -671,7 +671,7 @@ input[type=text]{
   height:112px;
   position:absolute;
   left:70px;
-  bottom:-120px;
+  bottom:-170px;
   opacity:1;
   background-image:url('../img/about_log.png');
   transition:.25s ease-out;
@@ -682,7 +682,7 @@ input[type=text]{
   height:112px;
   position:absolute;
   left:40px;
-  bottom:-120px;
+  bottom:-170px;
   opacity:1;
   background-image:url('../img/menu_log.png');
   transition:.25s ease-out;
@@ -694,7 +694,7 @@ input[type=text]{
   width:118px;
   position:absolute;
   left:25px;
-  bottom:-120px;
+  bottom:-170px;
   opacity:1;
   transition:.25s ease-out;
 }
@@ -706,7 +706,7 @@ input[type=text]{
   position:absolute;
   opacity:1;
   left:25px;
-  bottom:-120px;
+  bottom:-170px;
   transition:.25s ease-out;
 }
 
@@ -757,6 +757,26 @@ input[type=text]{
   background-image:url('../img/percy.png');
   position:absolute;
   bottom:5px;
+  right:100px;
+  opacity:1;
+}
+
+.donuts{
+  height:55px;
+  width:161px;
+  background-image:url('../img/donuts.png');
+  position:absolute;
+  bottom:50px;
+  right:100px;
+  opacity:1;
+}
+
+.abe{
+  width:175px;
+  height:64px;
+  background-image:url('../img/abefisher.png');
+  position:absolute;
+  bottom:50px;
   right:100px;
   opacity:1;
 }
