@@ -641,7 +641,7 @@ $('.tempo_contact').click(function() {
 
 //======left out from def ============//
 
-$('.gemini_LARROW').click(function() {
+$('.gemini_larrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_def');
   $('.gemini_menu_killer').addClass('gemini_menu_2');
 });
@@ -649,7 +649,7 @@ $('.gemini_LARROW').click(function() {
 //======left out from 2=========//
 
 
-$('.gemini_LARROW').click(function() {
+$('.gemini_larrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_2');
   $('.gemini_menu_killer').addClass('gemini_menu_3');
 });
@@ -657,14 +657,14 @@ $('.gemini_LARROW').click(function() {
 //=============left out from 3===================//
 
 
-$('.gemini_LARROW').click(function() {
+$('.gemini_larrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_3');
   $('.gemini_menu_killer').addClass('gemini_menu_4');
 });
 
 //==============left from 4========================//
 
-$('.gemini_LARROW').click(function() {
+$('.gemini_larrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_4');
   $('.gemini_menu_killer').addClass('gemini_menu_5');
 });
@@ -674,28 +674,28 @@ $('.gemini_LARROW').click(function() {
 //=======right from 2===============//
 
 
-$('.gemini_RARROW').click(function() {
+$('.gemini_rarrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_2');
   $('.gemini_menu_killer').addClass('gemini_menu_def');
 });
 
 //========right from 3-------------------//
 
-$('.gemini_RARROW').click(function() {
+$('.gemini_rarrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_3');
   $('.gemini_menu_killer').addClass('gemini_menu_2');
 });
 
 //==========right from 4========================//
 
-$('.gemini_RARROW').click(function() {
+$('.gemini_rarrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_4');
   $('.gemini_menu_killer').aaClass('gemini_menu_3');
 });
 
 //=============right from 5===========================//
 
-$('.gemini_RARROW').click(function() {
+$('.gemini_rarrow').click(function() {
   $('.gemini_menu_killer').removeClass('gemini_menu_5');
   $('.gemini_menu_killer').addClass('gemini_menu_4');
 });

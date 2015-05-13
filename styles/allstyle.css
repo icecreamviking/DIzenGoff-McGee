@@ -442,7 +442,7 @@ body {
   left:20px;
 }
 
-.gemini_LARROW{
+.gemini_larrow{
   height:100px;
   width:100px;
   border-radius:50px;
@@ -456,7 +456,7 @@ body {
   z-index:1;
 }
 
-.gemini_RARROW{
+.gemini_rarrow{
   height:100px;
   width:100px;
   border-radius:50px;
@@ -470,7 +470,7 @@ body {
   z-index:1;
 }
 
-.gemini_arrowL{
+.gemini_arrow_r{
   height:94px;
   width:60px;
   background-image:url('../img/green_arrow.png');
@@ -479,7 +479,7 @@ body {
   left:15px;
 }
 
-.gemini_arrowR{
+.gemini_arrow_r{
   height:94px;
   width:60px;
   background-image:url('../img/green_arrow.png');
