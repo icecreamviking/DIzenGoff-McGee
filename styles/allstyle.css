@@ -842,6 +842,11 @@ input[type=text]{
   transition:.25s ease-out;
 }
 
+.zahav:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
+}
+
 .family_all_hide{
   opacity:0;
   transition:.25s ease-out;
@@ -864,6 +869,11 @@ input[type=text]{
   opacity:1;
   transition:.25s ease-out;
 }
+
+.percy:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
+}
 .donuts{
   height:55px;
   width:161px;
@@ -883,6 +893,11 @@ input[type=text]{
   transition:.25s ease-out;
 }
 
+.donuts:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
+}
+
 .abe{
   width:175px;
   height:64px;
@@ -898,5 +913,10 @@ input[type=text]{
   bottom:100px;
   right:290px;
   opacity:1;
+  transition:.25s ease-out;
+}
+
+.abe:hover{
+  -webkit-transform:scale(1.2,1.2);
   transition:.25s ease-out;
 }
