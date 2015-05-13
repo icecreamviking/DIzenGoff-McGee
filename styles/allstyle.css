@@ -970,6 +970,7 @@ input[type=text]{
   right:5px;
   cursor:pointer;
   transition:.25s ease-out;
+  z-index:2;
 }
 
 .destro:hover{
