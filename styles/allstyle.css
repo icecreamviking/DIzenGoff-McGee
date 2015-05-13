@@ -200,6 +200,11 @@ body {
   cursor:pointer;
 }
 
+.tempo_home:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
+}
+
 .home_butt{
   width:75px;
   height:94px;
@@ -207,6 +212,11 @@ body {
   position:absolute;
   top:-120px;
 
+}
+
+.home_butt:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
 }
 
 .tempo_about{
@@ -218,6 +228,11 @@ body {
   left:-25px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
+}
+
+.tempo_about:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
 }
 
 .tempo_menu{
@@ -242,6 +257,11 @@ body {
   -webkit-transform:scale(.6,.6);
 }
 
+.tempo_prorder:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
+}
+
 .tempo_contact{
   height:55px;
   width:223px;
@@ -251,6 +271,11 @@ body {
   left:-20px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
+}
+
+.tempo_contact:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
 }
 
 .tempo_brunch{
