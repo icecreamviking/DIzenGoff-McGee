@@ -705,7 +705,3 @@ input[type=text]{
   bottom:0px;
   transition:.25s ease-out;
 }
-
-.tempo_about:hover
-  -webkit-transform:scale(1.2,1.2);
-}
