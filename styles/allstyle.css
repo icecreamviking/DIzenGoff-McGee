@@ -400,6 +400,8 @@ body {
   height:485px;
   width:1650px;
   transition:.25s ease-out;
+  position:absolute;
+  left:0px;
 }
 
 .gemini_menu_tail{
@@ -431,6 +433,7 @@ body {
 
 .gemini_menu_5{
   left:-1320px;
+  transition:.25s ease-out;
 }
 
 .about_guts{
