@@ -266,7 +266,7 @@ body {
   width:50px;
   position:absolute;
   transition:.25s ease-out;
-  background-image:url('..img/inst.png');
+  background-image:url('../img/inst.png');
   background-size:cover;
   top:50px;
   left:400px;
