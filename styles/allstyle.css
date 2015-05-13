@@ -652,12 +652,12 @@ input[type=text]{
 }
 
 .prorder_submit{
-  background-image:url('../img/sumbitt.png');
+  background-image:url('../img/submitt.png');
   height:63px;
   width:166px;
   position:absolute;
-  bottom:15px;
-  left:100px;
+  bottom:30px;
+  left:200px;
   cursor:pointer;
 
 }
