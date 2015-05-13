@@ -314,8 +314,7 @@ body {
   transition:.25s ease-out;
   background-image:url('../img/inst.png');
   background-size:cover;
-  top:50px;
-  left:580px;
+  left:0px;
 }
 
 .social_fb{
@@ -325,8 +324,7 @@ body {
   transition:.25s ease-out;
   background-image:url('../img/fb.png');
   background-size:cover;
-  top:60px;
-  left:750px;
+  left:250px;
 }
 
 .social_twt{
@@ -336,8 +334,7 @@ body {
   transition:.25s ease-out;
   background-image:url('../img/twt.png');
   background-size:cover;
-  top:50px;
-  left:900px;
+  right:0px;
 }
 
 
