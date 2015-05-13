@@ -482,6 +482,12 @@ $('tempo_home').click(function() {
   $('.bloc_about').addClass('bloc_vanish');
 });
 
+$('.tempo_home').click(function() {
+  if($('.bloc_about').hasClass('bloc_manifest')) {
+    $('.bloc_about').removeClass('bloc_manifest');
+  }
+});
+
 //home apparate kill menu//
 
 $('tempo_home').click(function() {
