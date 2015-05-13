@@ -734,7 +734,6 @@ input[type=text]{
   height:50px;
   width:190px;
   position: absolute;
-
   top:70px;
   left:20px;
 }
@@ -995,4 +994,23 @@ input[type=text]{
   position:absolute;
   top:25px;
   left:20px;
+}
+
+.brunch_quantity{
+  height:50px;
+  width:190px;
+  position: absolute;
+  bottom:70px;
+  left:20px;
+}
+
+.brunch_submit{
+  background-image:url('../img/submitt.png');
+  height:63px;
+  width:166px;
+  position:absolute;
+  bottom:100px;
+  left:270px;
+  cursor:pointer;
+
 }
