@@ -1014,3 +1014,11 @@ input[type=text]{
   cursor:pointer;
 
 }
+
+.social_suitcase{
+  height:100px;
+  width:450px;
+  position:absolute;
+  top:100px;
+  left:38%;
+}
