@@ -751,7 +751,7 @@ input[type=text]{
 .zahav_out{
   opacity:1;
   bottom:5px;
-  right:200px;
+  right:300px;
   transition:.25s ease-out;
 }
 
