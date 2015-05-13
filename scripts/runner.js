@@ -479,15 +479,7 @@ $('.tempo_home').click(function() {
 
 $('tempo_home').click(function() {
   $('.bloc_def').addClass('bloc_manifest');
-});
-
-$('.tempo_home').click(function() {
-  if($('.bloc_about').hasClass('bloc_manifest')) {
-    $('.bloc_about').removeClass('bloc_manifest');
-  }
-  else{
-    $('.bloc_def').addClass('bloc_manifest');
-  }
+  $('.bloc_about').addClass('bloc_vanish');
 });
 
 //home apparate kill menu//
