@@ -254,12 +254,7 @@ body {
   overflow:hidden;
 }
 
-.social_fb{
-  height:50px;
-  width:50px;
-  position:absolute;
-  transition:.25s ease-out;
-}
+
 
 .social_inst{
   height:100px;
@@ -269,8 +264,31 @@ body {
   background-image:url('../img/inst.png');
   background-size:cover;
   top:50px;
-  left:500px;
+  left:550px;
 }
+
+.social_fb{
+  height:100px;
+  width:100px;
+  position:absolute;
+  transition:.25s ease-out;
+  background-image:url('../img/fb.png');
+  background-size:cover;
+  top:50px;
+  left:850px;
+}
+
+.social_twt{
+  height:100px;
+  width:100px;
+  position:absolute;
+  transition:.25s ease-out;
+  background-image:url('../img/fb.png');
+  background-size:cover;
+  top:50px;
+  left:1050px;
+}
+
 
 .fotter_carrier{
   height:195px;
