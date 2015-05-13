@@ -705,3 +705,27 @@ input[type=text]{
   bottom:0px;
   transition:.25s ease-out;
 }
+
+.tempo_about:hover > .about_log{
+  transition:.25s ease-out;
+  bottom:-70px;
+  opacity:1;
+}
+
+.tempo_menu:hover > .menu_log{
+  transition:.25s ease-out;
+  bottom:-70px;
+  opacity:1;
+}
+
+.tempo_prorder:hover > .prorder_log{
+  transition:.25s ease-out;
+  bottom:-70px;
+  opacity:1;
+}
+
+.tempo_contact:hover > .contact_log{
+  transition:.25s ease-out;
+  bottom:-70px;
+  opacity:1;
+}
