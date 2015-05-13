@@ -727,12 +727,9 @@ input[type=text]{
   bottom:30px;
   right:200px;
   cursor:pointer;
+  z-index:1;
 }
 
-.family_all:hover{
-  -webkit-transform:scale(1.2,1.2);
-  transition:.25s ease-out;
-}
 
 .all_vanish{
   opacity:0;
@@ -751,7 +748,7 @@ input[type=text]{
   cursor:pointer;
 }
 
-.family_quad_out{
+.zahav_out{
   opacity:1;
   bottom:50px;
   right:200px;
@@ -768,21 +765,34 @@ input[type=text]{
   width:166px;
   background-image:url('../img/percy.png');
   position:absolute;
-  bottom:5px;
-  right:100px;
+  bottom:50px;
+  right:200px;
   opacity:0;
   cursor:pointer;
 }
 
+.percy_out{
+  bottom:5px;
+  right:100px;
+  opacity:1;
+  transition:.25s ease-out;
+}
 .donuts{
   height:55px;
   width:161px;
   background-image:url('../img/donuts.png');
   position:absolute;
-  bottom:100px;
-  right:100px;
+  bottom:50px;
+  right:200px;
   opacity:0;
   cursor:pointer;
+}
+
+.donuts_out{
+  bottom:100px;
+  right:100px;
+  opacity:1;
+  transition:.25 ease-out;
 }
 
 .abe{
@@ -790,8 +800,15 @@ input[type=text]{
   height:64px;
   background-image:url('../img/abefisher.png');
   position:absolute;
-  bottom:100px;
-  right:290px;
+  bottom:50px;
+  right:200px;
   opacity:0;
   cursor:pointer;
+}
+
+.abe_out{
+  bottom:100px;
+  right:290px;
+  opacity:1;
+  transition:.25s ease-out;
 }

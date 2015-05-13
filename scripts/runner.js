@@ -732,8 +732,8 @@ $('.gemini_RARROW').click(function() {
 //FAMILY//
 $('.family_all').click(function() {
   $('.family_all').addClass('all_vanish');
-  $('.zahav').addClass('family_quad_out');
-  $('.abe').addClass('family_quad_out');
-  $('.donuts').addClass('family_quad_out');
-  $('.percy').addClass('family_quad_out');
+  $('.zahav').addClass('zahav_out');
+  $('.abe').addClass('abe_out');
+  $('.donuts').addClass('donuts_out');
+  $('.percy').addClass('percy_out');
 });
