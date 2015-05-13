@@ -479,14 +479,10 @@ $('.tempo_home').click(function() {
 
 $('.tempo_home').click(function() {
   $('.bloc_def').addClass('bloc_manifest');
-  $('.bloc_about').addClass('bloc_vanish');
+  $('.bloc_about').removeClass('bloc_manifest');
 });
 
-$('.tempo_home').click(function() {
-  if($('.bloc_about').hasClass('bloc_manifest')) {
-    $('.bloc_about').removeClass('bloc_manifest');
-  }
-});
+
 
 //ABOUT//
 //about apparate kill home//
