@@ -639,7 +639,7 @@ input[type=text]{
   height:100px;
   width:390px;
   position:absolute;
-  top: 40px;
+  top: 20px;
   left: 40px;
 }
 
@@ -648,7 +648,18 @@ input[type=text]{
   width:425px;
   position:absolute;
   left:25px;
-  bottom:85px;
+  bottom:100px;
+}
+
+.prorder_submit{
+  background-image:url('../img/sumbitt.png');
+  height:63px;
+  width:166px;
+  position:absolute;
+  bottom:15px;
+  left:100px;
+  cursor:pointer;
+
 }
 
 .prorder_name{
