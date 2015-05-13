@@ -706,10 +706,8 @@ input[type=text]{
   transition:.25s ease-out;
 }
 
-.tempo_about:hover > .about_log{
-  transition:.25s ease-out;
-  bottom:-70px;
-  opacity:1;
+.tempo_about:hover > .tempo_home{
+  background-color:blue;
 }
 
 .tempo_menu:hover > .menu_log{
