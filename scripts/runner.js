@@ -496,40 +496,39 @@ $('tempo_home').click(function() {
 });
 
 $('.tempo_home').click(function() {
-  if($('.bloc_about').hasClass('bloc_manifest')) {
-    $('.bloc_about').removeClass('bloc_manifest');
+  if($('.bloc_menu').hasClass('bloc_manifest')) {
+    $('.bloc_menu').removeClass('bloc_manifest');
   }
 });
+
 
 //home apparate kill prorder//
 
 $('tempo_home').click(function() {
   $('.bloc_def').addClass('bloc_manifest');
+  $('.bloc_prorder').addClass('bloc_vanish');
 });
 
 $('.tempo_home').click(function() {
   if($('.bloc_prorder').hasClass('bloc_manifest')) {
     $('.bloc_prorder').removeClass('bloc_manifest');
   }
-  else{
-    $('.bloc_def').addClass('bloc_manifest');
-  }
 });
+
 
 //home apparate kill contact//
 
 $('tempo_home').click(function() {
   $('.bloc_def').addClass('bloc_manifest');
+  $('.bloc_contact').addClass('bloc_vanish');
 });
 
 $('.tempo_home').click(function() {
   if($('.bloc_contact').hasClass('bloc_manifest')) {
     $('.bloc_contact').removeClass('bloc_manifest');
   }
-  else{
-    $('.bloc_def').addClass('bloc_manifest');
-  }
 });
+
 
 //ABOUT//
 
@@ -540,48 +539,51 @@ $('tempo_about').click(function() {
   $('.bloc_def').addClass('bloc_vanish');
 });
 
+$('.tempo_about').click(function() {
+  if($('.bloc_def').hasClass('bloc_manifest')) {
+    $('.bloc_def').removeClass('bloc_manifest');
+  }
+});
 
-//about apparate kill menu//
+//about apparate an kill menu//
+
 $('tempo_about').click(function() {
   $('.bloc_about').addClass('bloc_manifest');
+  $('.bloc_menu').addClass('bloc_vanish');
 });
 
 $('.tempo_about').click(function() {
   if($('.bloc_menu').hasClass('bloc_manifest')) {
     $('.bloc_menu').removeClass('bloc_manifest');
   }
-  else{
-    $('.bloc_about').addClass('bloc_manifest');
-  }
 });
 
-//about apparate kill prorder//
+//about apparate and kill prorder//
+
 $('tempo_about').click(function() {
   $('.bloc_about').addClass('bloc_manifest');
+  $('.bloc_prorder').addClass('bloc_vanish');
 });
 
 $('.tempo_about').click(function() {
   if($('.bloc_prorder').hasClass('bloc_manifest')) {
     $('.bloc_prorder').removeClass('bloc_manifest');
   }
-  else{
-    $('.bloc_about').addClass('bloc_manifest');
-  }
 });
 
-//about apparate kill contact//
+//about apparate and kill contact//
+
 $('tempo_about').click(function() {
   $('.bloc_about').addClass('bloc_manifest');
+  $('.bloc_contact').addClass('bloc_vanish');
 });
 
 $('.tempo_about').click(function() {
   if($('.bloc_contact').hasClass('bloc_manifest')) {
     $('.bloc_contact').removeClass('bloc_manifest');
   }
-  else{
-    $('.bloc_about').addClass('bloc_manifest');
-  }
 });
+
 
 
 //================================home========================================
