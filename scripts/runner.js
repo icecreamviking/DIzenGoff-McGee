@@ -717,3 +717,13 @@ $('.gemini_rarrow').click(function() {
     $('.gemini_menu_killer').addClass('gemini_menu_4');
   }
 });
+
+
+//cooknsolo//
+$('.family_all').click(function() {
+  $('.zahav').addClass('zahav_out');
+  $('.percy').addClass('percy_out');
+  $('.abe').addClass('abe_out');
+  $('.donuts').addClass('donuts_out');
+
+});
