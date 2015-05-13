@@ -482,6 +482,26 @@ $('.tempo_home').click(function() {
   $('.bloc_about').removeClass('bloc_manifest');
 });
 
+//home apparate kill menu//
+
+$('.tempo_home').click(function() {
+  $('.bloc_def').addClass('bloc_manifest');
+  $('.bloc_menu').removeClass('bloc_manifest');
+});
+
+//home apparate kill prorder//
+
+$('.tempo_home').click(function() {
+  $('.bloc_def').addClass('bloc_manifest');
+  $('.bloc_prorder').removeClass('bloc_manifest');
+});
+
+//home apparate kill contact//
+
+$('.tempo_home').click(function() {
+  $('.bloc_def').addClass('bloc_manifest');
+  $('.bloc_contact').removeClass('bloc_manifest');
+});
 
 
 //ABOUT//
@@ -496,6 +516,57 @@ $('.tempo_about').click(function() {
   if($('.bloc_def').hasClass('bloc_manifest')) {
     $('.bloc_def').removeClass('bloc_manifest');
   }
+});
+
+//about apparate kill menu//
+
+$('.tempo_about').click(function() {
+  $('.bloc_about').addClass('bloc_manifest');
+  $('.bloc_menu').removeClass('bloc_manifest');
+});
+
+//about apparate kill prorder//
+$('.tempo_about').click(function() {
+  $('.bloc_about').addClass('bloc_manifest');
+  $('.bloc_prorder').removeClass('bloc_manifest');
+});
+
+//about apparate kill contact
+$('.tempo_about').click(function() {
+  $('.bloc_about').addClass('bloc_manifest');
+  $('.bloc_contact').removeClass('bloc_manifest');
+});
+
+//MENU//
+
+//menu apparate kill home//
+$('.tempo_menu').click(function() {
+  $('.bloc_menu').addClass('bloc_manifest');
+  $('.bloc_def').addClass('bloc_vanish');
+});
+
+$('.tempo_menu').click(function() {
+  if($('.bloc_def').hasClass('bloc_manifest')) {
+    $('.bloc_def').removeClass('bloc_manifest');
+  }
+});
+
+//menu apparate kill about//
+$('.tempo_menu').click(function() {
+  $('.bloc_menu').addClass('bloc_manifest');
+  $('.bloc_about').removeClass('bloc_manifest');
+});
+
+//menu apparate kill prorder//
+$('.tempo_menu').click(function() {
+  $('.bloc_menu').addClass('bloc_manifest');
+  $('.bloc_prorder').removeClass('bloc_manifest');
+});
+
+//menu apparate kill contact//
+$('.tempo_menu').click(function() {
+  $('.bloc_menu').addClass('bloc_manifest');
+  $('.bloc_contact').removeClass('bloc_manifest');
 });
 
 
