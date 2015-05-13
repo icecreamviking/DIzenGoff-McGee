@@ -258,8 +258,15 @@ body {
   height:66px;
   background-image:url('../img/footer_brunch.png');
   position:absolute;
-  bottom:100px;
-  left:50px;
+  bottom:50px;
+  left:65px;
+  transition:.25s ease-out;
+  cursor:pointer;
+}
+
+.tempo_brunch:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
 }
 
 .social_carry{
