@@ -479,7 +479,7 @@ body {
   left:15px;
 }
 
-.gemini_arrow_r{
+.gemini_arrow_l{
   height:94px;
   width:60px;
   background-image:url('../img/green_arrow.png');
@@ -488,11 +488,11 @@ body {
   left:25px;
 }
 
-.gemini_LARROW:hover{
+.gemini_larrow:hover{
   box-shadow: 0 0 0 3pt #D5006D;
 }
 
-.gemini_RARROW:hover{
+.gemini_rarrow:hover{
   box-shadow: 0 0 0 3pt #D5006D;
 }
 
