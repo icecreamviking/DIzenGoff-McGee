@@ -477,7 +477,7 @@ $('.tempo_home').click(function() {
 
 //home apparate kill about//
 
-$('tempo_home').click(function() {
+$('.tempo_home').click(function() {
   $('.bloc_def').addClass('bloc_manifest');
   $('.bloc_about').addClass('bloc_vanish');
 });
@@ -491,7 +491,7 @@ $('.tempo_home').click(function() {
 //ABOUT//
 //about apparate kill home//
 
-$('tempo_about').click(function() {
+$('.tempo_about').click(function() {
   $('.bloc_about').addClass('bloc_manifest');
   $('.bloc_def').addClass('bloc_vanish');
 });
