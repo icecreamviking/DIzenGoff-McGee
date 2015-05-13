@@ -466,6 +466,15 @@ $('.tempo_contact').click(function() {
 
 //====andrews team of assassins!===================================//
 //HOME//
+
+//home insurance//
+$('.tempo_home').click(function() {
+  if($('.bloc_def').hasClass('bloc_vanish')) {
+    $('.bloc_def').removeClass('bloc_vanish');
+  }
+});
+
+
 //home apparate kill about//
 
 $('tempo_home').click(function() {
@@ -532,16 +541,9 @@ $('.tempo_home').click(function() {
 
 $('tempo_about').click(function() {
   $('.bloc_about').addClass('bloc_manifest');
+  $('.bloc_def').addClass('bloc_vanish');
 });
 
-$('.tempo_about').click(function() {
-  if($('.bloc_def').hasClass('bloc_manifest')) {
-    $('.bloc_def').removeClass('bloc_manifest');
-  }
-  else{
-    $('.bloc_about').addClass('bloc_manifest');
-  }
-});
 
 //about apparate kill menu//
 $('tempo_about').click(function() {
