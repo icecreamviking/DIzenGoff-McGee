@@ -107,6 +107,7 @@ body {
   height:470px;
   width:100%;
   bottom:470px;
+  opacity:0.0;
 
 }
 
@@ -116,6 +117,7 @@ body {
   height:470px;
   width:100%;
   bottom:940px;
+  opacity:0.0;
 
 }
 
@@ -125,6 +127,7 @@ body {
   height:470px;
   width:100%;
   bottom:1410px;
+  opacity:0.0;
 
 }
 
@@ -134,6 +137,7 @@ body {
   height:470px;
   width:100%;
   bottom:1880px;
+  opacity:0.0;
 
 }
 
@@ -169,14 +173,14 @@ body {
 
 .bloc_manifest{
   opacity:1.0;
-  transition:.5s ease-out
+  transition:.5s ease-out;
   transition-delay:.2s;
 }
 
 
 .bloc_vanish{
   opacity:0;
-  transition:.5s ease-out
+  transition:.5s ease-out;
   transition-delay:.2s;
 }
 
