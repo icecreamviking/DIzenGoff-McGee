@@ -670,8 +670,8 @@ input[type=text]{
   width:72px;
   height:112px;
   position:absolute;
-  left:50px;
-  bottom:-70px;
+  left:70px;
+  bottom:-120px;
   opacity:1;
   background-image:url('../img/about_log.png');
   transition:.25s ease-out;
@@ -681,8 +681,8 @@ input[type=text]{
   width:104px;
   height:112px;
   position:absolute;
-  left:25px;
-  bottom:-70px;
+  left:40px;
+  bottom:-120px;
   opacity:1;
   background-image:url('../img/menu_log.png');
   transition:.25s ease-out;
@@ -693,8 +693,8 @@ input[type=text]{
   height:109px;
   width:118px;
   position:absolute;
-  left:20px;
-  bottom:-70px;
+  left:25px;
+  bottom:-120px;
   opacity:1;
   transition:.25s ease-out;
 }
@@ -705,8 +705,8 @@ input[type=text]{
   background-image:url('../img/contact_log.png');
   position:absolute;
   opacity:1;
-  left:20px;
-  bottom:-70px;
+  left:25px;
+  bottom:-120px;
   transition:.25s ease-out;
 }
 
@@ -724,8 +724,8 @@ input[type=text]{
   position:absolute;
   opacity:1;
   transition:.25s ease-out;
-  bottom:50px;
-  right:100px;
+  bottom:30px;
+  right:200px;
 }
 
 .all_vanish{
@@ -739,8 +739,8 @@ input[type=text]{
   background-image:url('../img/zahav.png');
   opacity:1;
   position:absolute;
-  bottom:15px;
-  right:150px;
+  bottom:5px;
+  right:300px;
   transition:.25s ease-out;
 }
 
@@ -749,4 +749,14 @@ input[type=text]{
   bottom:50px;
   right:100px;
   transition:.25s ease-out;
+}
+
+.percy{
+  height:69px;
+  width:166px;
+  background-image:url('../img/percy.png');
+  position:absolute;
+  bottom:5px;
+  right:100px;
+  opacity:1;
 }
