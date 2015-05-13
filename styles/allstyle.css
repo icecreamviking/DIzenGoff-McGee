@@ -969,6 +969,13 @@ input[type=text]{
   top:5px;
   right:5px;
   z-index:1
+  cursor:pointer;
+  transition:.25s ease-out;
+}
+
+.destro:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
 }
 
 .destro_punch{
@@ -987,5 +994,5 @@ input[type=text]{
   background-image:url('../img/brnch_tagge.png');
   position:absolute;
   top:25px;
-  left:10px;
+  left:20px;
 }
