@@ -465,7 +465,7 @@ $('.tempo_contact').click(function() {
 //============================================================================//
 
 //====andrews team of assassins!===================================//
-
+//HOME//
 //home apparate kill about//
 $('.tempo_home').click(function() {
   if($('.bloc_def').hasClass('bloc_vanish')) {
@@ -486,6 +486,71 @@ $('.tempo_home').click(function() {
   }
 });
 
+//home apparate kill menu//
+
+$('.tempo_home').click(function() {
+  if($('.bloc_def').hasClass('bloc_vanish')) {
+    $('.bloc_def').removeClass('bloc_vanish');
+  }
+  else{
+    $('.bloc_menu').removeClass('bloc_manifest');
+  }
+});
+
+
+$('.tempo_home').click(function() {
+  if($('.bloc_menu').hasClass('bloc_manifest')) {
+    $('.bloc_menu').removeClass('bloc_manifest');
+  }
+  else{
+    $('.bloc_def').addClass('bloc_manifest');
+  }
+});
+
+//home apparate kill prorder//
+
+$('.tempo_home').click(function() {
+  if($('.bloc_def').hasClass('bloc_vanish')) {
+    $('.bloc_def').removeClass('bloc_vanish');
+  }
+  else{
+    $('.bloc_prorder').removeClass('bloc_manifest');
+  }
+});
+
+
+$('.tempo_home').click(function() {
+  if($('.bloc_prorder').hasClass('bloc_manifest')) {
+    $('.bloc_prorder').removeClass('bloc_manifest');
+  }
+  else{
+    $('.bloc_def').addClass('bloc_manifest');
+  }
+});
+
+//home apparate kill contact//
+
+$('.tempo_home').click(function() {
+  if($('.bloc_def').hasClass('bloc_vanish')) {
+    $('.bloc_def').removeClass('bloc_vanish');
+  }
+  else{
+    $('.bloc_contact').removeClass('bloc_manifest');
+  }
+});
+
+
+$('.tempo_home').click(function() {
+  if($('.bloc_contact').hasClass('bloc_manifest')) {
+    $('.bloc_contact').removeClass('bloc_manifest');
+  }
+  else{
+    $('.bloc_def').addClass('bloc_manifest');
+  }
+});
+
+
+//ABOUT//
 //about apparate kill home//
 
 $('.tempo_about').click(function() {
