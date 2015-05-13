@@ -726,6 +726,12 @@ input[type=text]{
   transition:.25s ease-out;
   bottom:30px;
   right:200px;
+  cursor:pointer;
+}
+
+.family_all:hover{
+  -webkit-transform:scale(1.2,1.2);
+  transition:.25s ease-out;
 }
 
 .all_vanish{
@@ -737,17 +743,23 @@ input[type=text]{
   width:160px;
   height:70px;
   background-image:url('../img/zahav.png');
-  opacity:1;
+  opacity:0;
   position:absolute;
   bottom:5px;
   right:300px;
   transition:.25s ease-out;
+  cursor:pointer;
 }
 
-.zahav_hide{
-  opacity:0;
+.family_quad_out{
+  opacity:1;
   bottom:50px;
-  right:100px;
+  right:200px;
+  transition:.25s ease-out;
+}
+
+.family_all_hide{
+  opacity:0;
   transition:.25s ease-out;
 }
 
@@ -758,7 +770,8 @@ input[type=text]{
   position:absolute;
   bottom:5px;
   right:100px;
-  opacity:1;
+  opacity:0;
+  cursor:pointer;
 }
 
 .donuts{
@@ -766,9 +779,10 @@ input[type=text]{
   width:161px;
   background-image:url('../img/donuts.png');
   position:absolute;
-  bottom:50px;
+  bottom:100px;
   right:100px;
-  opacity:1;
+  opacity:0;
+  cursor:pointer;
 }
 
 .abe{
@@ -776,7 +790,8 @@ input[type=text]{
   height:64px;
   background-image:url('../img/abefisher.png');
   position:absolute;
-  bottom:50px;
-  right:100px;
-  opacity:1;
+  bottom:100px;
+  right:290px;
+  opacity:0;
+  cursor:pointer;
 }

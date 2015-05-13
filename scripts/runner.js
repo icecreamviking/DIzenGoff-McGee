@@ -728,3 +728,12 @@ $('.gemini_RARROW').click(function() {
     $('.gemini_menu_killer').addClass('gemini_menu_4');
   }
 });
+
+//FAMILY//
+$('.family_all').click(function() {
+  $('.family_all').addClass('all_vanish');
+  $('.zahav').addClass('family_quad_out');
+  $('.abe').addClass('family_quad_out');
+  $('.donuts').addClass('family_quad_out');
+  $('.percy').addClass('family_quad_out');
+});
