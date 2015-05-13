@@ -705,3 +705,44 @@ input[type=text]{
   bottom:70px;
   transition:.25s ease-out;
 }
+
+.footer_family_carry{
+  height:100%;
+  width:50%;
+  position:absolute;
+  right:0px;
+}
+
+.family_all{
+  height:113px;
+  width:185px;
+  background-image:url('../img/cooknsolo.png';)
+  position:absolute;
+  opacity:1;
+  transition:.25s ease-out;
+  bottom:50px;
+  right:100px;
+}
+
+.all_vanish{
+  opacity:0;
+  transition:.25s ease-out;
+}
+
+.zahav{
+  width:160px;
+  height:70px;
+  background-image:url('../img/zahav.png');
+  opacity:1;
+  position:absolute;
+  bottom:15px;
+  right:150px;
+  transition:.25s ease-out;
+}
+
+.zahav_hide{
+  opacity:0;
+  bottom:50px;
+  right:100px;
+  transition:.25s ease-out;
+}
