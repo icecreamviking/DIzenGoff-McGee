@@ -474,6 +474,7 @@ $('.tempo_about').click(function() {
   }
   else{
     $('.bloc_about').addClass('bloc_manifest');
+    $('.bloc_def').addClass('bloc_vanish');
   }
 });
 
