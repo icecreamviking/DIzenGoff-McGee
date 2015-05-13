@@ -218,7 +218,7 @@ body {
   background-image:url('../img/menu_button.png');
   position:absolute;
   bottom:15px;
-  left:0px;
+  left:20px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
 }
@@ -228,8 +228,8 @@ body {
   width:261px;
   background-image:url('../img/prorder_button.png');
   position:absolute;
-  bottom:0px;
-  left:-25px;
+  bottom:15px;
+  left:-50px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
 }
@@ -239,8 +239,8 @@ body {
   width:223px;
   background-image:url('../img/contact_button.png');
   position:absolute;
-  bottom:0px;
-  left:0px;
+  bottom:15px;
+  left:-20px;
   cursor:pointer;
   -webkit-transform:scale(.6,.6);
 }
@@ -664,4 +664,44 @@ input[type=text]{
 
   top:210px;
   left:123px;
+}
+
+.about_log{
+  width:72px;
+  height:112px;
+  position:absolute;
+  bottom:0px;
+  opacity:0.0;
+  background-image:url('../img/about_log.png');
+  transition:.25s ease-out;
+}
+
+.menu_log{
+  width:104px;
+  height:112px;
+  position:absolute;
+  bottom:0px;
+  opacity:0.0;
+  background-image:url('../img/menu_log.png');
+  transition:.25s ease-out;
+}
+
+.prorder_log{
+  background-image:url('../img/cart_log.png');
+  height:109px;
+  width:118px;
+  position:absolute;
+  bottom:0px;
+  opacity:0.0;
+  transition:.25s ease-out;
+}
+
+.contact_log{
+  height:99px;
+  width:132px;
+  background-image:url('../img/contact_log.png');
+  position:absolute;
+  opacity:0.0;
+  bottom:0px;
+  transition:.25s ease-out;
 }
