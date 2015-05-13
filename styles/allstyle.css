@@ -278,6 +278,12 @@ body {
   -webkit-transform:scale(.65,.65);
   transition:.25s ease-out;
 }
+.brunch_master{
+  height:100%;
+  width:710px;
+  position:absolute;
+  left:38%;
+}
 
 .tempo_brunch{
   width:147px;
@@ -949,7 +955,7 @@ input[type=text]{
   width:475px;
   position:absolute;
   top:190px;
-  left:34%;
+  left:100px;
   background-color:#371F1A;
   outline-color: #83A96C;
   outline-width: 4px;
