@@ -261,6 +261,17 @@ body {
   transition:.25s ease-out;
 }
 
+.social_inst{
+  height:50px;
+  width:50px;
+  position:absolute;
+  transition:.25s ease-out;
+  background-image:url('..img/inst.png');
+  background-size:cover;
+  top:50px;
+  left:400px;
+}
+
 .fotter_carrier{
   height:195px;
   width:100%;
