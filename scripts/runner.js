@@ -725,5 +725,6 @@ $('.family_all').click(function() {
   $('.percy').addClass('percy_out');
   $('.abe').addClass('abe_out');
   $('.donuts').addClass('donuts_out');
+  $('.family_all').addClass('family_all_hide')
 
 });
