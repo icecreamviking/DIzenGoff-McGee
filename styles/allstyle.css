@@ -214,10 +214,6 @@ body {
 
 }
 
-.home_butt:hover{
-  -webkit-transform:scale(1.2,1.2);
-  transition:.25s ease-out;
-}
 
 .tempo_about{
   height:55px;
@@ -232,7 +228,7 @@ body {
 }
 
 .tempo_about:hover{
-  -webkit-transform:scale(.8,.8);
+  -webkit-transform:scale(.7,.7);
   transition:.25s ease-out;
 }
 
@@ -248,8 +244,8 @@ body {
   transition:.25s ease-out;
 }
 
-.tempo_menut:hover{
-  -webkit-transform:scale(.8,.8);
+.tempo_menu:hover{
+  -webkit-transform:scale(.7,.7);
   transition:.25s ease-out;
 }
 
@@ -266,7 +262,7 @@ body {
 }
 
 .tempo_prorder:hover{
-  -webkit-transform:scale(.8,.8);
+  -webkit-transform:scale(.7,.7);
   transition:.25s ease-out;
 }
 
@@ -283,7 +279,7 @@ body {
 }
 
 .tempo_contact:hover{
-  -webkit-transform:scale(.8,.8);
+  -webkit-transform:scale(.7,.7);
   transition:.25s ease-out;
 }
 
