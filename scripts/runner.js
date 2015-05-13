@@ -641,70 +641,75 @@ $('.tempo_contact').click(function() {
 
 //======left out from def ============//
 
+
 $('.gemini_larrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_def');
-  $('.gemini_menu_killer').addClass('gemini_menu_2');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_def')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_def');
+    $('.gemini_menu_killer').addClass('gemini_menu_2');
+  }
 });
 
 //======left out from 2=========//
 
-
 $('.gemini_larrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_2');
-  $('.gemini_menu_killer').addClass('gemini_menu_3');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_2')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_2');
+    $('.gemini_menu_killer').addClass('gemini_menu_3');
+  }
 });
 
 //=============left out from 3===================//
 
-
 $('.gemini_larrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_3');
-  $('.gemini_menu_killer').addClass('gemini_menu_4');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_3')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_3');
+    $('.gemini_menu_killer').addClass('gemini_menu_4');
+  }
 });
 
 //==============left from 4========================//
 
 $('.gemini_larrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_4');
-  $('.gemini_menu_killer').addClass('gemini_menu_5');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_4')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_4');
+    $('.gemini_menu_killer').addClass('gemini_menu_5');
+  }
 });
 
 //========right
 
 //=======right from 2===============//
 
-
 $('.gemini_rarrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_2');
-  $('.gemini_menu_killer').addClass('gemini_menu_def');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_2')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_2');
+    $('.gemini_menu_killer').addClass('gemini_menu_def');
+  }
 });
 
 //========right from 3-------------------//
 
 $('.gemini_rarrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_3');
-  $('.gemini_menu_killer').addClass('gemini_menu_2');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_3')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_3');
+    $('.gemini_menu_killer').addClass('gemini_menu_2');
+  }
 });
 
 //==========right from 4========================//
 
 $('.gemini_rarrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_4');
-  $('.gemini_menu_killer').aaClass('gemini_menu_3');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_4')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_4');
+    $('.gemini_menu_killer').addClass('gemini_menu_3');
+  }
 });
 
 //=============right from 5===========================//
 
 $('.gemini_rarrow').click(function() {
-  $('.gemini_menu_killer').removeClass('gemini_menu_5');
-  $('.gemini_menu_killer').addClass('gemini_menu_4');
-});
-
-//FAMILY//
-$('.family_all').click(function() {
-  $('.family_all').addClass('all_vanish');
-  $('.zahav').addClass('zahav_out');
-  $('.abe').addClass('abe_out');
-  $('.donuts').addClass('donuts_out');
-  $('.percy').addClass('percy_out');
+  if($('.gemini_menu_killer').hasClass('gemini_menu_5')) {
+    $('.gemini_menu_killer').removeClass('gemini_menu_5');
+    $('.gemini_menu_killer').addClass('gemini_menu_4');
+  }
 });

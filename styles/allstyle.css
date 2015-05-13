@@ -519,13 +519,41 @@ body {
 }
 
 .men_chicken{
-  height:161px;
-  width:260px;
+  height:26px;
+  width:161px;
   background-image:url('../img/chicken.png');
   position:absolute;
   top:190px;
   left:50px;
 }
+
+.men_onions{
+  width:233px;
+  height:224px;
+  background-image:url('../img/roasted_onion.png');
+  position:absolute;
+  top:190px;
+  left:50px;
+}
+
+.men_mas{
+  width:255px;
+  height:280px;
+  background-image:url('../img/masbacha.png');
+  position:absolute;
+  top:190px;
+  left:50px;
+}
+
+.men_barley{
+  width:289px;
+  height:212px;
+  background-image:url('../img/bareley_sunflower.png');
+  position:absolute;
+  top:190px;
+  left:50px;
+}
+
 
 .menu_pikachu{
   height:246px;
