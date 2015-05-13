@@ -492,14 +492,12 @@ $('.tempo_home').click(function() {
 
 $('tempo_home').click(function() {
   $('.bloc_def').addClass('bloc_manifest');
+  $('.bloc_menu').addClass('bloc_vanish');
 });
 
 $('.tempo_home').click(function() {
-  if($('.bloc_menu').hasClass('bloc_manifest')) {
-    $('.bloc_menu').removeClass('bloc_manifest');
-  }
-  else{
-    $('.bloc_def').addClass('bloc_manifest');
+  if($('.bloc_about').hasClass('bloc_manifest')) {
+    $('.bloc_about').removeClass('bloc_manifest');
   }
 });
 
