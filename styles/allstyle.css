@@ -15,6 +15,10 @@ body {
 
 }
 
+.center-align {
+  left: 50%;
+  transform: translateX(-50%);
+}
 .spine {
   background-image: url('../img/BG.png');
   background-size:cover;
